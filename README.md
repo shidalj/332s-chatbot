@@ -31,7 +31,7 @@ Additional features
 1. continuos training, incrmenetal updates - take user input into account to update (helpful/not helpful), easy to update model given new resources (new recitation recording, new piazza posts)
 2. Tuning to produce more accurate results
 
-### requirements for RestAPI
+### Minimum requirements for RestAPI
 1. endpoint for submitting a question, cleans the user input and invokes the bot to receive an answer and send back to the user interface
 
 Additional features
@@ -39,7 +39,7 @@ Additional features
 2. endpoint for requesting question/answer history
 3. ability to manually review history and mark as correct/incorrect to facilitate model tuning
 
-### additional features beyond the three pieces above
+## additional features beyond the three pieces above
 1. user interface targeted towards insructors to monitor and review the bots performance. Displays saved questions/answers, allows feedback from the instructor on correctness, allows instructor to provide additional resources for training, etc.
 
 ## Technologies required/used for development
