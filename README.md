@@ -59,3 +59,18 @@ Manual grading will be used to verify the bots performance in certain areas. Som
 ### API testing
 A unit testing framework will be used to ensure API endpoints are correctly processing inputs and invoking the bot program - **Framework TBD**
 
+## Estimated development timeline
+An incremental building approach will be used to construct this software, building it piece by piece. 
+1. simple user interface to grab a single question from the user and display a response from the API (weeks 1-2)
+2. A simple RestAPI to receive requests and respond with a default message (weeks 1-2)
+3. Create a simple program to take in a message as input and respond with a answer (generic answer). Modify the API endpoint to invoke this program to generate a response, sned the response back to the user interface to be displayed (weeks 3-4)
+4. Select LLM model to use, collect inputs for model training. (weeks 3-4)
+5. Clean data and preapre data for model training (video to text, etc.) (weeks 3-4)
+6. Train LLM model given collected data (week 5-6)
+7. Update API to invoke chat bot program rather than generic program to connect the user interface to the bot (week 7)
+8. Test bot performanced based on testing criteria and document work (week 8)
+9. Iterate and improve or implement additional features (weeks 9+)
+
+## Transferring deliverables to the client
+In my case, the client is me..I will make this repository accessible to myself. Throughout my work, I will document exactly what I have done via a note taking app like Google Docs. I will upload all notes to this repository for later review. I will create necessary guides and documentation to allow others to easily follow my work and reproduce it if desired (installation guide for necessary libraries, software. Installation and compilation guide for code I've written. Instructions for hosting any cloud services on AWS, etc.). I will also upload to this repositroy a copy of any slides used during presentations throughout the semester.
+
