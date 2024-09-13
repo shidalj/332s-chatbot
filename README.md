@@ -8,7 +8,8 @@ This project aims to create a chatbot for answering questions related to CSE 332
 
 More details on will be provided regarding each of the above in section 3.
 
-## Client This project is proposed by Prof. Shidal, Senior Lecturer at WashU and instructor of CSE 332S (shidalj@wustl.edu)
+## Client 
+This project is proposed by Prof. Shidal, Senior Lecturer at WashU and instructor of CSE 332S (shidalj@wustl.edu)
 
 ## Section 2: Project requirements
 A minimal viable solution for this project includes a working chatbot, accessible via a RestAPI and a user interface allowing a user to ask questions to the chatbot and display the bots answers. 
