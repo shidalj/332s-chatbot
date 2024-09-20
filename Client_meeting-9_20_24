@@ -1,0 +1,17 @@
+The biggest questions we have leading into this meeting are:
+1. what data will we use to train the chat bot?
+2. how will we access that data?
+3. if we have limited time, should we prioritize integration with piazza or trying to tune the model for more accuracte answers?
+4. where should bot be hosted? locally for now? on the cloud? We'd like to start simple and host locally.
+
+Meeting notes:
+1. data will come in the from of videos with slides, as well as discussion board posts and answers. Some answers will be marked as "good answers" hinting at correctness. Videos will be provided as downloads, discussion posts are available via the canvas or piazza APIs. Hosting locally for testing works great.
+2. Priorities would be:
+      a. converting this input data to something that is usable to train the model of choice. This may be a challenge for video with slides. 
+      b. model choice and model accuracy
+      c. user interface and integrations with existing discussion board. A simple interface (command line) is great for testing purposes
+      d. automatic updates of the model as new data comes in is a low priority
+3. other notes of importance and lingering questions: 
+      a. metrics for testing accuracy of answers?
+      b. data input formats that work well for models? See 2.a above
+      c. proposal due next week - programming language? useful libraries? 
